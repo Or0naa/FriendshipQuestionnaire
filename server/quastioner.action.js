@@ -14,7 +14,7 @@ export const createQuestionerAction = async (questionerObject) => {
         console.error('Error in createQuestionerAction:', error);
         return { message: 'not created', error: error.message };
     }
-    redirect(`/${newQuestionerFromDb._id}`);
+    redirect(`/create/${newQuestionerFromDb._id}`);
 }
 
 // pages/api/submit-questioner.js

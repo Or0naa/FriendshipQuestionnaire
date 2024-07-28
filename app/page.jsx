@@ -9,9 +9,9 @@ export default function Home() {
         <Link href="/create" className='px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300'>
           יצירת שאלון
         </Link>
-        <button className='px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition duration-300'>
+        <Link href='/allQuestionaires' className='px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition duration-300'>
           פתרון שאלון
-        </button>
+        </Link>
       </div>
     </div>
   );
